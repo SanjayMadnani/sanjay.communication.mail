@@ -48,7 +48,7 @@ public class CommunicationHelperTest {
 	@Test
 	public void testSendMail() throws Exception {
 		final List<String> toList = new ArrayList<String>();
-		toList.add("sanjay.madnani@outlook.com");
+		toList.add("your Mail address");
 		final String msgSubject = "Let's Plan to meet.";
 		final String msgBody = "Hi,<br/><b>I think we should plan to meet.</b>";
 		assertTrue(communicationHelper.sendMail(toList, null, msgSubject, msgBody, null));
