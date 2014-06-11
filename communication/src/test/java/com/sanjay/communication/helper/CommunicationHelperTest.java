@@ -34,7 +34,7 @@ public class CommunicationHelperTest {
 	 * @throws java.lang.Exception
 	 */
 	@Before
-	public void setUp() throws Exception {
+	public void setUp() throws Exception { 
 		communicationHelper = new CommunicationHelper();
 	}
 
